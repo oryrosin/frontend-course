@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: 'sofia';
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    color: darkcyan;
+    border: darkcyan 1px solid;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 10px 10px 5px dimgray;
+}
+
+form > div, div> label {
+    display: flex;
+    width: 80%;
+    margin-right: auto;   
+    margin-left: auto;
+    padding: 5px;
+}
+
+a{
+    background-color: lightsalmon;
+    padding: 5px;
+    height: 30px;
+    box-shadow: 10px 10px 5px dimgray;
+    text-decoration: none;
+    color: darkcyan;
+}
+.direct:first-child{
+    margin-top: 50px;
+    text-decoration: none;
+    
+}
+.direct:last-child{
+    margin-top: 50px;
+    text-decoration: none;
+}
+.direct{
+    display: flex;
+    justify-content: space-between;
+}
